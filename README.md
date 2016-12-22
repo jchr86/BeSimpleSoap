@@ -1,3 +1,5 @@
+## A fork of the abandoned besimple/soap
+
 # BeSimpleSoap
 
 Build SOAP and WSDL based web services
@@ -44,7 +46,7 @@ Create a `composer.json` file:
 ```json
 {
     "require": {
-        "besimple/soap": "0.2.*@dev"
+        "jchr86/besimple-soap": "^0.3@dev"
     }
 }
 ```
