@@ -29,7 +29,7 @@ class Part
         $this->type = $type;
         $this->setNillable($nillable);
         $this->setMinOccurs($minOccurs);
-        $this->setNillable($maxOccurs);
+        $this->setMaxOccurs($maxOccurs);
     }
 
     public function getName()
